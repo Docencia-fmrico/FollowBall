@@ -1,4 +1,4 @@
-# 2024-P6-FollowBall
+# 2024-P5-FollowBall
 
 Crea una aplicación en ROS 2 que haga que un robot busque y siga una pelota de un color característico, esquivando los obstáculos que se encuentre en su camino, usando VFF.
 

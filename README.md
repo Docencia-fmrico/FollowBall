@@ -1,11 +1,11 @@
-# 2024-P5-FollowBall
+# follow_ball
 
 Crea una aplicación en ROS 2 que haga que un robot busque y siga una pelota de un color característico, esquivando los obstáculos que se encuentre en su camino, usando VFF.
 
 ![vff1 drawio](https://github.com/Docencia-fmrico/2024-P6-FollowBall/assets/3810011/f485341e-c5b3-4515-b5c8-673b6e708632)
 
-* Debes crear un paquete que tenga un nodo que **use** la salida de los nodos que ya existen(https://github.com/Docencia-fmrico/ASR_2024/tree/main/sensors) en ASR24, con ligeras modificaciones. No debes copiar ni ficheros ni código de ASR24 a tu paquete nuevo, solo modificarlos en su ubicación original.
-* La modificación de los nodos que hay en ASR24 consiste en que cada uno publique los componentes necesarios de un vector atractivo, en el caso de `hsv_filter` o un vector repulsivo, en el caso de `ObstacleDetector`. Puedes usar `geometry_msgs/msg/Vector3` o cualquier interfaz que te parezca adecuada.
+* Debes crear un paquete que tenga un nodo que **use** la salida de los nodos que ya existen(https://github.com/Docencia-fmrico/ASR_2025/tree/main/sensors) con ligeras modificaciones. No debes copiar ni ficheros ni código de ASR25 a tu paquete nuevo, solo modificarlos en su ubicación original.
+* La modificación de los nodos consiste en que cada uno publique los componentes necesarios de un vector atractivo, en el caso de `hsv_filter` o un vector repulsivo, en el caso de `ObstacleDetector`. Puedes usar `geometry_msgs/msg/Vector3` o cualquier interfaz que te parezca adecuada.
 * El nodo desarrollado debe tener dos estados:
     * Uno para cuando no percibe el objeto, y gira hacia un lado. Por ejemplo, podría girar siempre hacia el mismo lado, o hacia el lado donde estaba la pelota antes de desaparecer.
     * Otro cuando el objeto es percibido, en el que genera velocidades usando VFF.

@@ -13,4 +13,4 @@ Crea una aplicación en ROS 2 que haga que un robot busque y siga una pelota de 
 * Una parameters para cualquier valor parametrizable: velocidades, valores del filtro, etc.
 * Usa topics con nombre genérico y conectalo con remapeos en el launcher. Usa launchers y/o configuraciones de parámetros diferentes cuando estés en el simulador o en el robot real.
 
-![vff drawio (2)](https://github.com/Docencia-fmrico/2024-P6-FollowBall/assets/3810011/4519e857-a055-4049-a6da-0b42efe2d787)
+![vff drawio (2)](https://github.com/Docencia-fmrico/FollowBall/assets/3810011/4519e857-a055-4049-a6da-0b42efe2d787)
